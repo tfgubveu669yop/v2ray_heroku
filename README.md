@@ -2,7 +2,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/pansila/v2ray_heroku.svg?style=flat-square&label=Pulls&logo=docker&color=green)](https://hub.docker.com/r/pansila/v2ray_heroku)
 [![Docker Version](https://img.shields.io/docker/v/pansila/v2ray_heroku?sort=date&style=flat-square&label=Version&logo=docker&color=blue)](https://hub.docker.com/r/pansila/v2ray_heroku)
 ![Deploys](https://img.shields.io/endpoint?url=https%3a%2f%2fstats.mideuu.tk%2fbadge)
-[![Join the chat at https://gitter.im/tfgubveu669yop/v2ray_heroku](https://img.shields.io/gitter/room/pansila/v2ray_heroku?style=flat-square&color=9cf&label=Chat)](https://gitter.im/tfgubveu669yop/v2ray_heroku)
+[![Join the chat at https://gitter.im/tfgubveu669yop/v2ss_ku](https://img.shields.io/gitter/room/pansila/v2ray_heroku?style=flat-square&color=9cf&label=Chat)](https://gitter.im/tfgubveu669yop/v2ss_ku)
 [![Chat on discord](https://img.shields.io/discord/852170555855732756?color=9cf&label=Discord&style=flat-square)](https://discord.gg/W7gwgsYZG5)
 
 This repo builds v2ray docker image for heroku app and helps you deploy it.
@@ -34,7 +34,7 @@ The drawback this way is that the v2ray is not always up to date, to do so you n
 
 ## ENV Settings During Deployment
 ### UUID
-There is a default one, you can generate your own `UUID` at the end of the deploy if you are concern of the default one. [Generate now](https://www.uuidgenerator.net/version4).
+There is a default one, you can generate your own `UUID` at the end of the deploy if you are concern of the default one. [22b9cb3e-e7ea-43ae-8ed4-fc7615df6a61](https://www.uuidgenerator.net/version4).
 ### DoH
 Set to 'true' to enable proxy server side DoH (DNS over HTTPS) to protect your DNS queries, although it will increase a little delay to your DNS queries. 'false' to disable it.
 
